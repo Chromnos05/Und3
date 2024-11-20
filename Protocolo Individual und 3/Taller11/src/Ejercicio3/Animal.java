@@ -6,7 +6,7 @@ package Ejercicio3;
 
 /**
  *
- * @author Lenovo
+ * @author Oscar Mercado
  */
 abstract class Animal {
     
