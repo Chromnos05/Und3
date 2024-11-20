@@ -15,7 +15,8 @@ public class Main {
      */
     public static void main(String[] args) {
         
-        
+        // Intento de instanciar la clase abstracta
+        Animal animal = new Animal();  // Error de compilación
         
     }
     
