@@ -6,16 +6,16 @@ package Ejercicio3;
 
 /**
  *
- * @author Lenovo
+ * @author Oscar Mercado
  */
 abstract class Animal {
     
-    // Método abstracto (sin implementación)
-    public abstract void hacerSonido();
-
-    // Método concreto (con implementación)
-    public void dormir() {
-        System.out.println("El animal está durmiendo.");
+    // Método concreto con implementación
+    public void hacerSonido() {
+        System.out.println("El animal hace un sonido.");
     }
+
+    // Método abstracto que debe ser sobrescrito
+    public abstract void comer();
     
 }

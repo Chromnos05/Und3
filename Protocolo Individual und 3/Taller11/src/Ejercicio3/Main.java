@@ -6,7 +6,7 @@ package Ejercicio3;
 
 /**
  *
- * @author Lenovo
+ * @author Oscar Mercado
  */
 public class Main {
 
@@ -15,7 +15,9 @@ public class Main {
      */
     public static void main(String[] args) {
         
-        
+        Perro perro = new Perro();
+        perro.hacerSonido(); // Imprime: El perro hace guau.
+        perro.comer();       // Imprime: El perro está comiendo.
         
     }
     
